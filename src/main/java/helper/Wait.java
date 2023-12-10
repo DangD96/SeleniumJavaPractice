@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class Wait {
-    public static WebElement forElement(WebDriver driver, By byMethod) {
+    public static WebElement forElementVisible(WebDriver driver, By byMethod) {
         return new WebDriverWait(driver, Duration.ofSeconds(5)).until(ExpectedConditions.visibilityOfElementLocated(byMethod));
     }
 }

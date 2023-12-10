@@ -6,3 +6,5 @@
 3: Waits
 
 4: Windows (Parent + Child)
+
+5: Nested Frames
