@@ -43,7 +43,6 @@ public class Assignment6 {
             alert.accept(); // Clicks the OK button on the alert popup
 
         } catch (Exception e) {
-            System.out.println("Error: ");
             e.printStackTrace();
         } finally {
             driver.quit();
