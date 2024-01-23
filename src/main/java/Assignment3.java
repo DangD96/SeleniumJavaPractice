@@ -1,4 +1,3 @@
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,11 +6,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.awt.*;
 import java.time.Duration;
 import java.util.List;
 
-import helper.SayHi;
 
 public class Assignment3 {
     public static void main (String[] args) {
@@ -19,7 +16,6 @@ public class Assignment3 {
         /* Implicitly wait UP TO 5 seconds between each step
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         */
-        //SayHi.sayHi("");
 
         driver.get("https://www.rahulshettyacademy.com/loginpagePractise/");
         driver.manage().window().maximize();
