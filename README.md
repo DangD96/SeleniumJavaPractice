@@ -1,12 +1,27 @@
-# Assignments
-1: Checkboxes
+### Assignment 1
+- Checkboxes
+- Size of lists
 
-2: Dropdowns
+### Assignment 2
+- Dropdowns
+- Grab text from alert banner
 
-3: Waits
+### Assignment 3
+- Waits
+- For loops to do stuff
+- Popups (can inspect it in F12)
 
-4: Windows (Parent + Child)
+### Assignment 4
+- Windows (Parent + Child)
+- Get window handle (popups?)
 
-5: Nested Frames
+### Assignment 5
+- Nested Frames
 
-6: Dynamically Selecting Values
+### Assignment 6
+- Dynamically Selecting Values
+- Alerts (can't inspect them in F12)
+- https://www.browserstack.com/guide/alerts-and-popups-in-selenium
+
+# Assignment 7
+- 

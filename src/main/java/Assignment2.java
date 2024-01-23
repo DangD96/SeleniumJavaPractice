@@ -28,8 +28,8 @@ public class Assignment2 {
         driver.findElement(By.cssSelector("input[value='Submit']")).click();
 
         // Print out confirmation message
-        WebElement alertMessagePopup = driver.findElement(By.cssSelector("div.alert.alert-success.alert-dismissible"));
-        String alertMessage = alertMessagePopup.getText();
+        WebElement alertMessageBanner = driver.findElement(By.cssSelector("div.alert.alert-success.alert-dismissible"));
+        String alertMessage = alertMessageBanner.getText();
         System.out.println(alertMessage);
         driver.quit();
     }
