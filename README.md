@@ -23,5 +23,7 @@
 - Alerts (can't inspect them in F12)
 - https://www.browserstack.com/guide/alerts-and-popups-in-selenium
 
-# Assignment 7
-- 
+### Assignment 7
+- Scroll using JavascriptExecutor
+
+### Assignment 8
