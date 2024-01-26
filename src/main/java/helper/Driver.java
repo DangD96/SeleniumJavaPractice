@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 
 public class Driver {
+    @org.jetbrains.annotations.NotNull
     public static WebDriver setUp() {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
